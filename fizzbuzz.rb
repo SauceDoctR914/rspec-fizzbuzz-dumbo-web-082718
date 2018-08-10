@@ -3,7 +3,7 @@ def fizzbuzz(num)
     "Fizz"
     elsif num % 5 == 0 
     "Buzz"
-    elsif num % 3 == 0 && num % 15 == 0
+    elsif num % 3 == 0 && num % 5 == 0
     "FizzBuzz"
   else 
     puts "Not divisible by 3 or 5"
